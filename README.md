@@ -22,4 +22,4 @@ We learned how to develop extensions in the firefox browser using javascript and
 ## What's next for Write Impressions
 We are currently creating a Chrome extension for Write Impressions, and we hope to expand to other platforms as well so that more people can use it in multiple settings. We also hope to implement customizable prompts and more advanced AI suggestion algorithms that analyze the selected text for emotions, incorporating context into the output.
 
-[![Watch the video](https://youtu.be/w2JLnaJlQUU)]
+[![Watch the video](https://youtu.be/w2JLnaJlQUU)](https://youtu.be/w2JLnaJlQUU)
