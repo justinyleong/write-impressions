@@ -19,38 +19,6 @@ browser.contextMenus.create({
 
 // listen to context menu events
 browser.contextMenus.onClicked.addListener(async (info, tab) => {
-    // if (info.menuItemId === "copy-link-to-clipboard") {
-    //     await browser.scripting.insertCSS({
-    //         target: {
-    //             tabId: tab.id,
-    //         },
-    //         css: `.progress { cursor: progress; }`
-    //     });
-    //     await fetch("https://api.openai.com/v1/chat/completions", {
-    //         method: "POST",
-    //         headers: {
-    //             "Content-Type": "application/json",
-    //             "Authorization": "Bearer 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"
-    //         },
-    //         body: JSON.stringify({
-    //             model: "gpt-3.5-turbo",
-    //             messages: [{ role: "user", content: "what is" + info.selectionText }]
-    //         })
-    //     }).then((data) => {
-    //         return data.json();
-    //     }).then((data) => {
-    //         let msg = JSON.parse(JSON.stringify(data))
-    //         let t2 = JSON.parse(JSON.stringify(msg.choices))
-    //         console.log(t2[0].message.content);
-
-    //         navigator.clipboard.writeText(t2[0].message.content).then(() => {
-    //             console.log("set correctly")
-    //         }, () => {
-    //             console.log("failed to set")
-    //         })
-
-    //     })
-    // } 
     if(info.menuItemId === "professional"){
         try {
             browser.scripting.insertCSS({
